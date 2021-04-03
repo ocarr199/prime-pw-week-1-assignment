@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head >
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Change the <title> from "Page Title" to "Hello World" -->
-    <title>Page Title</title>
+    <title>Owen's Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <!-- Create a header with an <h1> containing your name -->
-
+    <div class="top-container">
+<h1>Owen Carruth</h1>
+    </div>
     <!-- Include an image -->
+    <div class="middle-container">
 
+
+
+<img id="theImage"src="https://i.imgur.com/kxL8yIQ.jpg?1" alt="ProfilePicture">
     <!-- Create an unordered list with 3 list items of fun facts about you -->
-    
+
+
+    <ul class="hobbies" title="My Hobbies">
+      <li>I love to hike</li>
+      <li>I play a lot of ps4</li>
+      <li>I have been to close to 100 concerts</li>
+    </ul>
+
+
+    <ul class="Pets" title="Fruit">
+      <li class="Lola"> <a href="#"></a>I have a dog named Lola</li>
+      <input type="button" id="theButton" value="Lola"
+          onclick="pictureChange1()">
+      <li class="Lenny">I have another dog named Lenny</li>
+      <input type="button" id="theButton" value="Lenny"
+          onclick="pictureChange2()">
+      <li class="Arlo">I have a Cat named Arlo</li>
+      <input type="button" id="theButton" value="Arlo"
+          onclick="pictureChange3()">
+  </ul>
+
+
+
+        </div>
     <!-- Create a footer -->
-    
+    <div class="bottom-container">
+
+      <p><input type="button" id="theButton" value="Click for a suprise :)"
+          onclick="pictureChange()"></p>
+
+      <p> "Nice Marmot" - The Dude</p>
+
+
+        </div>
     <!-- Inside your footer, put a <p> with your favorite quote -->
+
+    <script src="helloWorld.js" charset="utf-8"></script>
 </body>
 </html>
